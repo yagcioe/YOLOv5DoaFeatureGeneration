@@ -1,5 +1,5 @@
 # YOLOv5DoaFeatureGeneration
-
+Code um "direction of arrival" (DOA) Trainingsdaten zu generieren. Spielt Audiodaten in einem simulierten Raum ab und nimmt diese mittels 2 Microphone auf. Die Mikrophone stellen hierbei die Ohren eines Menschens dar.
 ## FeatureGen
 python3 featureGen.py count --clear --start (int) --cores (int) 
   - count: Anzahl an Daten, die pro Core generiert werden sollen.
